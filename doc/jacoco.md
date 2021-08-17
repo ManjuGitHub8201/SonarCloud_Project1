@@ -1,4 +1,4 @@
-# Importing JaCoCo coverage report in XML format
+# Importing JaCoCo coverage report in XML format format
 
 Version 5.12 of our SonarJava analyzer deprecated use JaCoCo's binary format (`.exec` files) to import coverage. This binary format is internal to the JaCoCo project, and as such there are no guarantees for backward compatibility, so it should not be used for integration purposes.
 
