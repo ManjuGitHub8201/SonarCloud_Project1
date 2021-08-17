@@ -9,4 +9,8 @@ int abs(int p) {
         return -p;
     }
     return p;
+	  if (p < 0) {
+        return -p;
+    }
+    return p;
 }
